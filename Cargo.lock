@@ -146,9 +146,8 @@ dependencies = [
 
 [[package]]
 name = "libsla-sys"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f692aac4a119667b9d3796b60a9f2853c6e54bc2201ff6494c80b34cd0bf0897"
+version = "0.1.5"
+source = "git+https://github.com/0verflowme/libsla-sys?branch=export-include#532c901ee4e60539dc9381bde1376f546173cbf6"
 dependencies = [
  "cxx",
  "cxx-build",
