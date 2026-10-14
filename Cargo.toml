@@ -27,6 +27,6 @@ libsla-sys = "0.1"
 [build-dependencies]
 cxx-build = "1.0"
 
-# libsla-sys stating its headers (0verflowme/libsla-sys#2) until a release has it.
+# libsla-sys stating its headers (0verflowme/libsla-sys#2, merged) until a release has it.
 [patch.crates-io]
-libsla-sys = { git = "https://github.com/0verflowme/libsla-sys", branch = "export-include" }
+libsla-sys = { git = "https://github.com/0verflowme/libsla-sys", branch = "main" }
