@@ -182,7 +182,7 @@ checksum = "ce5d3ddc6d3fa000eb1536d85e147bfe31aacaba692ed6a876f95cb7c855be78"
 [[package]]
 name = "libsla-sys"
 version = "0.1.5"
-source = "git+https://github.com/0verflowme/libsla-sys?branch=main#6d9a2add92ae80572050c00313293bdf1e3debf3"
+source = "git+https://github.com/0verflowme/libsla-sys?branch=context-targets#4e3d9ac5437e372aa3df29966a0339fc11b97862"
 dependencies = [
  "cc",
  "cxx",

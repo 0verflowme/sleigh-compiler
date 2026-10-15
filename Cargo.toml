@@ -28,5 +28,6 @@ libsla-sys = "0.1"
 cxx-build = "1.0"
 
 # libsla-sys stating its headers (0verflowme/libsla-sys#2, merged) until a release has it.
+# Ghidra 918acd744d's headers until 0verflowme/libsla-sys#6 merges; then back to `main`.
 [patch.crates-io]
-libsla-sys = { git = "https://github.com/0verflowme/libsla-sys", branch = "main" }
+libsla-sys = { git = "https://github.com/0verflowme/libsla-sys", branch = "context-targets" }
